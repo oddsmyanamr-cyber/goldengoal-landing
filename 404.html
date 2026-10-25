@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>စာမျက်နှာ မတွေ့ပါ — Golden Goal</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 40px 16px;
+      text-align: center;
+      background:
+        radial-gradient(circle at 50% 20%, rgba(255, 215, 0, 0.1), transparent 45%),
+        var(--bg);
+    }
+    .error-page img {
+      width: 88px;
+      height: 88px;
+      margin: 0 auto 26px;
+      border-radius: 24px;
+      box-shadow: 0 0 0 1px rgba(255, 215, 0, 0.3);
+    }
+    .error-code {
+      font-size: clamp(4rem, 16vw, 7rem);
+      line-height: 1;
+      font-weight: 700;
+      background: linear-gradient(120deg, var(--gold-light), var(--gold-soft));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .error-page h1 {
+      margin: 18px 0 10px;
+      font-size: 1.5rem;
+    }
+    .error-page p {
+      max-width: 440px;
+      margin: 0 auto 28px;
+      color: var(--muted);
+      line-height: 1.9;
+    }
+  </style>
+</head>
+<body>
+  <main class="error-page">
+    <div>
+      <img src="assets/app-icon.png" alt="Golden Goal">
+      <div class="error-code">404</div>
+      <h1>ဤစာမျက်နှာ မတွေ့ပါ</h1>
+      <p>သင်ရှာနေသော စာမျက်နှာ မရှိတော့ပါ သို့မဟုတ် လိပ်စာ မှားယွင်းနေပါသည်။</p>
+      <a class="btn btn-gold" href="/">ပင်မစာမျက်နှာသို့ ပြန်သွားရန်</a>
+    </div>
+  </main>
+</body>
+</html>
