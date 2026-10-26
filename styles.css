@@ -1434,6 +1434,13 @@ button {
   line-height: 1.9;
 }
 
+.download-panel .download-meta {
+  margin-top: 18px;
+  font-size: 0.76rem;
+  line-height: 1.7;
+  color: rgba(12, 12, 20, 0.58);
+}
+
 .download-points {
   display: flex;
   flex-wrap: wrap;
