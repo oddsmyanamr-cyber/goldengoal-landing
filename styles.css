@@ -1093,8 +1093,7 @@ button {
 }
 
 .game-card--crush .game-body,
-.game-card--reels .game-body,
-.game-card--fish .game-body {
+.game-card--reels .game-body {
   max-width: 100%;
   margin-top: auto;
   padding-top: 96px;
@@ -1133,23 +1132,6 @@ button {
 
 .reel .sym {
   color: var(--gold-soft);
-}
-
-.game-card--fish {
-  background: linear-gradient(170deg, #10303b, #0d1c26);
-}
-
-.fish-scene {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.game-card--fish .game-body {
-  z-index: 2;
 }
 
 /* Sports card */
@@ -1791,8 +1773,7 @@ button {
   }
 
   .game-card--crush .game-body,
-  .game-card--reels .game-body,
-  .game-card--fish .game-body {
+  .game-card--reels .game-body {
     padding-top: 90px;
   }
 
