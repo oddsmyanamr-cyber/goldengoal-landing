@@ -7,9 +7,9 @@
   "platformCommitShort": "219b4d8-dirty",
   "platformDirty": true,
   "bundle": "main.dart.js",
-  "bundleMd5": "3f478f76fe7414e7887415e662df52e4",
+  "bundleMd5": "6f2eedb8ed9234b045b8e9315e6c787a",
   "apiBaseUrl": "https://api.mmgoldengoal.com/api/v1",
   "host": "https://mmgoldengoal.com/play",
   "basePath": "/play/",
-  "deployedAt": "2026-11-02T11:14:04Z"
+  "deployedAt": "2026-11-03T06:59:00Z"
 }
