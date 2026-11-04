@@ -4,12 +4,12 @@
   "buildNumber": "7",
   "platformRepo": "oddsmyanamr-cyber/goldengoal-platform",
   "platformCommit": "46c2ad4763a025537ead773d7dfb6c41e1cdb39a",
-  "platformCommitShort": "46c2ad4",
-  "platformDirty": false,
+  "platformCommitShort": "46c2ad4-dirty",
+  "platformDirty": true,
   "bundle": "main.dart.js",
-  "bundleMd5": "51b461fefa86d72a3fb6af8c8d54c366",
+  "bundleMd5": "5e40c8ee13439dcff770b3b29973747c",
   "apiBaseUrl": "https://api.mmgoldengoal.com/api/v1",
   "host": "https://mmgoldengoal.com/play",
   "basePath": "/play/",
-  "deployedAt": "2026-11-04T05:40:02Z"
+  "deployedAt": "2026-11-04T06:26:15Z"
 }
